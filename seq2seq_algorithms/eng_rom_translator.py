@@ -11,6 +11,8 @@ import os
 import re
 import random
 
+# Language data: http://www.manythings.org/anki/
+
 device = torch.device('cpu')
 
 SOS_token = 0
